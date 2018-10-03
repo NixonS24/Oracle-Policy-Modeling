@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root product-version="12.2.7.797">
+  <entities>
+    <entity ref="global">
+      <attribute name="054bf615-e762-4d33-b9a1-40e04fdf215f" type="boolean">
+        <text>
+          <base>the customer is a gold member</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the customer',singular),o('a gold member'))</parse>
+        </text>
+      </attribute>
+      <attribute name="bfa41770-b470-4b03-b483-eee1870abd65" type="boolean">
+        <text>
+          <base>the claim is covered by warranty</base>
+          <parse>s(ver('12.2.7.797'),v(cover,t(simple,present,normal)),ob('the claim',singular),o('by warranty'))</parse>
+        </text>
+      </attribute>
+    </entity>
+  </entities>
+  <relationships />
+</root>

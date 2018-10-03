@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<interview product-version="12.2.7.797">
+  <cors />
+  <documents UsePDFA="false" />
+  <screens>
+    <Screen Title="Custom Details" SubmitAction="Next" CheckpointAfterSubmit="false" SubmitRedirectURL="" HasBackButton="false" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="relevant" ID="ca3f7a67-5a3b-47b7-bdc0-d1ddff44eff4">
+      <Controls>
+        <LabelControl TextStyle="Normal" Caption="&lt;strong&gt; Welcome to the benefits assessment inteview &lt;/strong&gt;. Please enter your details. " ControlWidth="0" DefaultState="enabled" ID="55d3b26b-4bef-4f2e-891c-7cfdd22f784b" />
+        <AttributeInputControl Attribute="054bf615-e762-4d33-b9a1-40e04fdf215f" DefaultValue="true" IsPassword="false" MinuteIncrement="1" SecondIncrement="1" YearStart="2018" YearEnd="1918" HideCaption="false" ButtonHorizontalLayout="true" InputStyle="Radiobutton" HintText="" ControlWidth="0" DefaultState="enabled" ID="b4e58a58-f339-40e0-acf3-5bc99e61f3a4" />
+      </Controls>
+    </Screen>
+    <Screen Title="Interview Complete" SubmitAction="Next" CheckpointAfterSubmit="false" SubmitRedirectURL="" HasBackButton="false" ShowExitButton="true" ShowProgressStages="true" ShowRestartButton="true" PublicName="" IsAutomatic="false" ShowCondition="always" ID="1b705073-aea8-46c0-903e-482adbb0ea01">
+      <Controls>
+        <ExplanationControl ShowReferenceTags="true" Caption="All Global Goals" ControlWidth="0" DefaultState="enabled" ID="49f2ddb0-1d70-4097-a11c-2340726b4fcc" />
+        <ExplanationControl Attribute="bfa41770-b470-4b03-b483-eee1870abd65" ShowReferenceTags="true" ControlWidth="0" DefaultState="enabled" ID="2477009e-34e5-4bc0-997a-f7130c1fac4b" />
+      </Controls>
+    </Screen>
+  </screens>
+  <screen-order ID="956bb64e-83e2-4023-887a-8e3744ff0997" PublicName="Main">
+    <ScreenOrderItemContainer ID="a8382f6a-e12c-4f95-b3dd-e199721d05ef" Title="Outcome">
+      <ScreenOrderScreen Screen="ca3f7a67-5a3b-47b7-bdc0-d1ddff44eff4" />
+    </ScreenOrderItemContainer>
+    <ScreenOrderItemContainer ID="d0df72e0-60ce-4ea1-bddd-833014783498" Title="Finished">
+      <ScreenOrderScreen Screen="1b705073-aea8-46c0-903e-482adbb0ea01" />
+    </ScreenOrderItemContainer>
+  </screen-order>
+</interview>
