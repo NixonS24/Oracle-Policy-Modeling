@@ -1,0 +1,1533 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root product-version="12.2.12.0">
+  <entities>
+    <entity ref="global">
+      <attribute name="82c025bf-7bcc-4adb-aad0-166d19d49740" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the supply is of residential premises</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('of residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="6204bb79-71b9-40c2-bbed-a586d9c28890" type="boolean">
+        <text>
+          <base>you have purchased or about to purchase the property</base>
+          <parse>s(ver('12.2.7.797'),v(purchase,t(simple,present,perfect)),sb('you',plural),o('or about to purchase the property'))</parse>
+        </text>
+      </attribute>
+      <attribute name="298ebb12-740b-4755-bb04-77e5696e8e46" type="boolean">
+        <text>
+          <base>they have, or are about to purchase property `</base>
+          <parse>s(ver('12.2.7.797'),v(have,t(simple,present,normal)),sb('they',plural),o(', or are about to purchase property `'))</parse>
+        </text>
+      </attribute>
+      <attribute name="6bddf0bc-693b-4afe-b527-5ee7f02fa21a" type="boolean">
+        <text>
+          <base>the person has, or is about to purchase property</base>
+          <parse>s(ver('12.2.7.797'),v(have,t(simple,present,normal)),sb('the person',singular),o(', or is about to purchase property'))</parse>
+        </text>
+      </attribute>
+      <attribute name="78278622-130e-47af-bc1b-47437ea57998" type="boolean">
+        <text>
+          <base>the person has, or is about to sell property</base>
+          <parse>s(ver('12.2.7.797'),v(have,t(simple,present,normal)),sb('the person',singular),o(', or is about to sell property'))</parse>
+        </text>
+      </attribute>
+      <attribute name="02037b16-6a95-43f5-bf8a-1a6e3b06d0fa" type="boolean">
+        <text>
+          <base>the person is a seller of property</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the person',singular),o('a seller of property'))</parse>
+        </text>
+      </attribute>
+      <attribute name="f783059c-e78d-4324-bb27-1844d6123e12" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the person is a purchaser of property</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the person',singular),o('a purchaser of property'))</parse>
+        </text>
+      </attribute>
+      <attribute name="4fe7624b-235d-45eb-bf01-59873c3e15bb" type="boolean" invisible-if-false="true" validation-message="Invalid value.">
+        <text>
+          <base>the supply is by way of sale or long-term lease</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('by way of sale or long-term lease'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2ad8303e-461e-42d0-a7ee-65eece0a4d5f" type="boolean">
+        <text>
+          <base>new residential premises</base>
+          <parse>s(ver('12.2.7.797'),stat('new residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="dc7d90e8-400a-4876-80da-94a83ceec0a3" type="boolean">
+        <text>
+          <base>potential residential premises</base>
+          <parse>s(ver('12.2.7.797'),stat('potential residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ee1fb526-7ad6-4a68-9700-bb6e616a4729" type="boolean">
+        <text>
+          <base>the supply is of potential residential premises</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('of potential residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2e322da1-6734-4996-af32-4bc62bf8717a" type="boolean">
+        <text>
+          <base>the supply is of new residential premises or of potential residential premises</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('of new residential premises or of potential residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="751a0e9a-254c-4668-a0e6-65dda68d2b1a" type="boolean">
+        <text>
+          <base>the seller is register or required to be registered for GST</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the seller',singular),o('register or required to be registered for GST'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e93da0a1-d784-40c0-acd6-48d31f8a5dd8" type="boolean">
+        <text>
+          <base>the sale of the residential premises is input taxes</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the sale of the residential premises',singular),o('input taxes'))</parse>
+        </text>
+      </attribute>
+      <attribute name="d1daa143-32b8-4bc9-ac16-3fa668ec60c6" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the sale is a GST-free supply</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the sale',singular),o('a GST-free supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="4080f6e1-06f0-4bbe-a998-2132fbc4a6dd" type="boolean">
+        <text>
+          <base>the supply has been created through substantial renovations</base>
+          <parse>s(ver('12.2.7.797'),v(create,t(simple,present,perfect)),ob('the supply',singular),o('through substantial renovations'))</parse>
+        </text>
+      </attribute>
+      <attribute name="95cab034-4430-490c-99c8-0ac97154a7ab" type="boolean">
+        <text>
+          <base>the supply is of commercial residential premises</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('of commercial residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="9b4a60b0-5f49-4eac-8921-bdb8ad0dd272" type="boolean">
+        <text>
+          <base>the user think the transitional rules apply</base>
+          <parse>s(ver('12.2.7.797'),v(apply,t(simple,present,normal)),sb('the user think the transitional rules',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="60858afe-4368-4adc-9c64-9401033cfb2a" type="boolean">
+        <text>
+          <base>the contract was entered into before 1 July 2018</base>
+          <parse>s(ver('12.2.7.797'),v(enter,t(simple,past,normal)),ob('the contract',singular),o('into before 1 July 2018'))</parse>
+        </text>
+      </attribute>
+      <attribute name="5f49910e-aa6e-44d1-99a0-f526bf71116b" type="boolean">
+        <text>
+          <base>the transitional rules may apply</base>
+          <parse>s(ver('12.2.7.797'),v(apply+may,t(simple,modal,normal)),sb('the transitional rules',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="b7d67cc4-0bd4-460f-b797-a589f6d0cf9f" type="boolean">
+        <text>
+          <base>the Transitional Rules apply</base>
+          <parse>s(ver('12.2.7.797'),v(apply,t(simple,present,normal)),sb('the Transitional Rules',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="da3554c5-839a-4b60-94aa-b004f7a4ead6" type="boolean" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the contracts were exchanged between the parties before 1 July 2018</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,past,normal)),sb('the contracts',plural),o('exchanged between the parties before 1 July 2018'))</parse>
+        </text>
+      </attribute>
+      <attribute name="aad44216-5cc7-4536-874b-d0b41d8f3983" type="boolean">
+        <text>
+          <base>the acceptance of the offer was communicated to the other party before 1 July 2018</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,past,normal)),sb('the acceptance of the offer',singular),o('communicated to the other party before 1 July 2018'))</parse>
+        </text>
+      </attribute>
+      <attribute name="399a030f-fa92-4752-b6f4-f8a4bb2ed66f" type="boolean">
+        <text>
+          <base>the supply is of new residential premises or of potential residential land</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('of new residential premises or of potential residential land'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ebc31d92-0b24-4e0e-a2e0-72c857f44d57" type="boolean">
+        <text>
+          <base>the property is included in a 'property subdivision plan'</base>
+          <parse>s(ver('12.2.7.797'),v(include,t(simple,present,normal)),ob('the property',singular),o('in a ''property subdivision plan'''))</parse>
+        </text>
+      </attribute>
+      <attribute name="77ff7e4e-3105-4fed-b79a-b5165eb8cb1b" type="boolean">
+        <text>
+          <base>the property contains any building that is in use for a commercial purpose</base>
+          <parse>s(ver('12.2.7.797'),v(contain,t(simple,present,normal)),sb('the property',singular),o('any building that is in use for a commercial purpose'))</parse>
+        </text>
+      </attribute>
+      <attribute name="b0999a25-3f22-4f40-ad02-7f024f3b2625" type="boolean">
+        <text>
+          <base>the property is of 'potential residential land'</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the property',singular),o('of ''potential residential land'''))</parse>
+        </text>
+      </attribute>
+      <attribute name="edc967bd-7223-4bd9-a5df-3cd28e07f727" type="auto" validation-message="Invalid value.">
+        <text>
+          <base>the person</base>
+        </text>
+      </attribute>
+      <attribute name="6948a391-a050-4073-8e1e-cbe3e96c7511" type="text" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>The user knows that the supply is by way of sale of long-term lease</base>
+        </text>
+        <enumeration-list ref-id="585201cb-f2e4-4972-9ee9-685822043fdb" />
+      </attribute>
+      <attribute name="99c00618-af7e-4903-bb7f-0bef5a482fd3" type="boolean">
+        <text>
+          <base>the supply is defined as by way of sale or long-term lease</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('defined as by way of sale or long-term lease'))</parse>
+        </text>
+      </attribute>
+      <attribute name="c81738d2-5310-4793-82dd-e7dcebb638f4" type="text" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>The user knows that the supply is of new residential premises or of potential residential land</base>
+        </text>
+        <enumeration-list ref-id="b5626b5d-05f3-4724-8348-c33f51b4acee" />
+      </attribute>
+      <attribute name="79d2cac3-469c-4f9c-a454-a08e7c2ef07b" type="boolean">
+        <text>
+          <base>any of the following are true</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('any of the following',plural),o('true'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e25f1b49-5eda-401c-89d2-1939ed6b6030" type="text" silent-if-unknown="true" invisible-if-unknown="true" validation-message="Invalid value." user-created="true" invisible-if-true="true" invisible-if-false="true" invisible-if-uncertain="true">
+        <text>
+          <base>The user knows that the Transitional Rules apply</base>
+        </text>
+        <enumeration-list ref-id="87c4b499-b4d6-4e34-ab14-78edf6bc4b12" />
+      </attribute>
+      <attribute name="cdd30fe1-e4ba-456f-92b8-11a5ae7a3556" type="text" validation-message="Invalid value." public-name="app_title">
+        <text>
+          <base>the applicant's title</base>
+        </text>
+        <enumeration-list ref-id="556c2201-2f2d-4021-b836-2e50c1aa8367" />
+      </attribute>
+      <attribute name="9408fa59-eab4-4348-b828-cd4c57d28b47" type="text" validation-message="Invalid value." public-name="app_firstname">
+        <text>
+          <base>the applicant's first name</base>
+        </text>
+      </attribute>
+      <attribute name="e48a07d5-78b2-4f44-a89b-81a5bbea5904" type="text" validation-message="Invalid value." public-name="app_lastname">
+        <text>
+          <base>the applicant's last name</base>
+        </text>
+      </attribute>
+      <attribute name="e42f0fa0-72ab-434a-b638-1f78f0a0a171" type="text" validation-message="The phone must be in the folowing format with no spaces XXXXXXXXXX" public-name="app_phone" min-value="8" max-value="12" regexp="^[0-9]{10}$">
+        <text>
+          <base>the applicant's phone number</base>
+        </text>
+      </attribute>
+      <attribute name="38acee86-b513-4c72-9775-67d786c451e0" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the applicant would like the ATO to contact them via email</base>
+          <parse>s(ver('12.2.7.797'),v(like+would,t(simple,modal,normal)),sb('the applicant',plural),o('the ATO to contact them via email'))</parse>
+        </text>
+      </attribute>
+      <attribute name="981632fa-0344-4be9-ba10-0c0366676a37" type="text" validation-message="Must be a valid email address" public-name="app_email" regexp="^[\w-]+(?:\.[\w-]+)*@(?:[\w-]+\.)+[a-zA-Z]{2,7}$">
+        <text>
+          <base>the applicant's email</base>
+        </text>
+      </attribute>
+      <attribute name="9fb31cee-2180-4880-9bbb-f84fce3b2e8b" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the property type</base>
+        </text>
+      </attribute>
+      <attribute name="cae97438-92eb-4514-9bc5-2576696d4a3d" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the address</base>
+        </text>
+      </attribute>
+      <attribute name="22ef56a7-f100-4c76-af52-bc3343b9e2de" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the suburb or town</base>
+        </text>
+      </attribute>
+      <attribute name="45a7c984-4a1c-40e2-b16c-b11edfc6080c" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the state or territory</base>
+        </text>
+      </attribute>
+      <attribute name="b0fb4046-7af7-4b59-b86c-d7e1e73d1f41" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the postcode</base>
+        </text>
+      </attribute>
+      <attribute name="35b9a775-dd42-44f0-b48d-9cf3eba95935" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the lot</base>
+        </text>
+      </attribute>
+      <attribute name="2ba21c30-b20e-48aa-9f88-e4d4f66d8784" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the plan</base>
+        </text>
+      </attribute>
+      <attribute name="b0b1c1a4-e262-4839-ae86-480352cbe488" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the plan type</base>
+        </text>
+      </attribute>
+      <attribute name="ccef5202-b011-4d73-945e-47c45659c167" type="date" validation-message="Invalid value." public-name="contract_date">
+        <text>
+          <base>the contract date</base>
+        </text>
+      </attribute>
+      <attribute name="3800ad92-a430-424a-ae60-e7be1543de65" type="date" validation-message="Invalid value." public-name="expected_settlement_date">
+        <text>
+          <base>the expected settlement date</base>
+        </text>
+      </attribute>
+      <attribute name="457548e9-e6f9-4756-9fa9-86f0eb31cbe2" type="currency" validation-message="Invalid value." public-name="contract_price" int-only="false">
+        <text>
+          <base>the contract price</base>
+        </text>
+      </attribute>
+      <attribute name="f6328175-f97d-4a9e-b211-c562aedfb167" type="text" validation-message="Invalid value." public-name="app_status">
+        <text>
+          <base>the applicant's status</base>
+        </text>
+      </attribute>
+      <attribute name="5581ae18-dfae-48a1-ac07-b6f1a715c519" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the lodgement reference number</base>
+        </text>
+      </attribute>
+      <attribute name="576d357f-220b-48e0-93c6-b5aadc9c6261" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the payment reference number</base>
+        </text>
+      </attribute>
+      <attribute name="2888559e-1817-4df3-b5f0-62f674780e77" type="date" validation-message="Invalid value." public-name="settlement_date">
+        <text>
+          <base>the settlement date</base>
+        </text>
+      </attribute>
+      <attribute name="1e6d755f-8f22-46ef-80bd-24ba08cb9a96" type="currency" validation-message="Invalid value.">
+        <text>
+          <base>the total withholding payment</base>
+        </text>
+      </attribute>
+      <attribute name="484f1d58-7c03-4ae4-a0bc-4f2c1fd61e07" type="boolean">
+        <text>
+          <base>the suppliers or purchasers' contact details have changed since Form 1 was submitted</base>
+          <parse>s(ver('12.2.7.797'),v(change,t(simple,present,perfect)),sb('the suppliers or purchasers'' contact details',plural),o('since Form 1 was submitted'))</parse>
+        </text>
+      </attribute>
+      <attribute name="a7b132df-f082-4b79-b255-0539bbdeb2cc" type="boolean">
+        <text>
+          <base>the supply is defined to be of new residential premises</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the supply',singular),o('defined to be of new residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="a8c1bfbf-314b-4ae2-b406-24cf9df35ba7" type="boolean">
+        <text>
+          <base>the supply is made for consideration</base>
+          <parse>s(ver('12.2.12.131'),v(make,t(simple,present,normal)),ob('the supply',singular),o('for consideration'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ac7c5d90-ffac-4404-98f9-4ab719de6ba5" type="boolean">
+        <text>
+          <base>the supply is made in the course or furtherance of an enterprise that the entity carries on</base>
+          <parse>s(ver('12.2.12.131'),v(make,t(simple,present,normal)),ob('the supply',singular),o('in the course or furtherance of an enterprise that the entity carries on'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e8839024-c624-48ba-aaae-490f15784961" type="boolean">
+        <text>
+          <base>the supply is connected with Australia</base>
+          <parse>s(ver('12.2.12.131'),v(connect,t(simple,present,normal)),ob('the supply',singular),o('with Australia'))</parse>
+        </text>
+      </attribute>
+      <attribute name="b5d60d2e-5ab1-4fae-82d7-647983249129" type="boolean">
+        <text>
+          <base>the entity is registered, or required to be registered, for GST</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the entity',singular),o('registered, or required to be registered, for GST'))</parse>
+        </text>
+      </attribute>
+      <attribute name="eec2d1e5-d826-480d-862f-a218b3f94d1e" type="boolean">
+        <text>
+          <base>the sale is a not GST-free supply</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the sale',singular),o('a not GST-free supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="8daeb65e-74e8-4796-9de6-8f33623838a2" type="boolean">
+        <text>
+          <base>the transaction is defined as a supply</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the transaction',singular),o('defined as a supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="501d206a-47a1-4599-a23a-db53fd4eb29c" type="boolean">
+        <text>
+          <base>the supply is by way of sale</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('by way of sale'))</parse>
+        </text>
+      </attribute>
+      <attribute name="9a1f5a4d-6014-4e87-ab2d-e3150108f882" type="boolean">
+        <text>
+          <base>the supply is by way of long-term lease</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('by way of long-term lease'))</parse>
+        </text>
+      </attribute>
+      <attribute name="8966782b-6acc-4088-a2ea-2ff45216d2ab" type="boolean">
+        <text>
+          <base>the supply is defined as a ‘new residential premises'</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('defined as a ‘new residential premises'''))</parse>
+        </text>
+      </attribute>
+      <attribute name="2ffbff71-1623-4a7e-8464-7c71f4690bb6" type="boolean">
+        <text>
+          <base>they have not previously been sold as a residential premises (other than commercial residential premises)</base>
+          <parse>s(ver('12.2.12.131'),v(have,t(simple,present,normal)),sb('they',plural),o('not previously been sold as a residential premises (other than commercial residential premises)'))</parse>
+        </text>
+      </attribute>
+      <attribute name="c43e3d0b-f6c3-4043-8d88-9aa94a48b395" type="boolean">
+        <text>
+          <base>it has not previously been sold as a residential premises (other than commercial residential premises)</base>
+          <parse>s(ver('12.2.12.131'),v(have,t(simple,present,normal)),sb('it',singular),o('not previously been sold as a residential premises (other than commercial residential premises)'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ad586010-6b02-4867-af23-8f82d9f6d3a2" type="number" validation-message="Invalid value." public-name="app_paymentreference" display-unformatted="true">
+        <text>
+          <base>the applicant's payment reference number</base>
+        </text>
+      </attribute>
+      <attribute name="6cf7b105-bf44-4d85-abeb-7e024f3fbb4b" type="text" validation-message="Must be 4 digits in the following format XXXX" public-name="prop_postcode" regexp="^[0-9]{4}$">
+        <text>
+          <base>the property's postcode</base>
+        </text>
+      </attribute>
+      <attribute name="80086f30-f82b-4173-a83b-7e7bec2e0dd0" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the property's section/block</base>
+        </text>
+      </attribute>
+      <attribute name="d1030d65-0a27-4b7a-a435-8fbf6af5b105" type="currency" validation-message="Invalid value." public-name="total_withholding_amount">
+        <text>
+          <base>the total withholding amount</base>
+        </text>
+      </attribute>
+      <attribute name="c3e25616-33b1-4891-a9db-25410145c198" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the property's folio</base>
+        </text>
+      </attribute>
+      <attribute name="d8458738-d940-44f0-9e78-bdbe4bc6f3e2" type="text" public-name="prop_suburb">
+        <text>
+          <base>the property's suburb/town</base>
+        </text>
+      </attribute>
+      <attribute name="4f135be9-bfa6-4322-927b-37a537765e91" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the property's state specific information</base>
+          <parse>s(ver('12.2.12.131'),v(state,t(simple,present,normal)),sb('the property''s',plural),o('specific information'))</parse>
+        </text>
+      </attribute>
+      <attribute name="1b4eaa12-29a1-430a-a39f-039ffbdb3669" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="a0d4cf62-cad7-4c60-9254-df0443ab7a5d" type="number" validation-message="Invalid value." public-name="app_lodgementreference" display-unformatted="true">
+        <text>
+          <base>the applicant's lodgement reference number</base>
+        </text>
+      </attribute>
+      <attribute name="7715059c-27fa-4e4f-8bfa-fe1ab45e1283" type="text" validation-message="Invalid value." public-name="prop_address">
+        <text>
+          <base>the property's address (line 1)</base>
+        </text>
+      </attribute>
+      <attribute name="a9c324b9-cccb-4f82-a690-62f1dd22f293" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="66db501f-c9b6-4f53-99d3-a049d2f20cae" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>whether the applicant agrees to the T/Cs</base>
+          <parse>s(ver('12.2.12.131'),v(agree,t(simple,present,normal)),sb('whether the applicant',singular),o('to the T/Cs'))</parse>
+        </text>
+      </attribute>
+      <attribute name="b7ecf9be-5768-44b5-a8ae-0b216e7c9d5c" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="684d3851-c3b2-4a51-895d-2c1c282b8a30" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the property's volume</base>
+        </text>
+      </attribute>
+      <attribute name="8b32a859-ad2e-4208-bec2-81e7b2146d8a" type="boolean">
+        <text>
+          <base>the applicant has submitted form one</base>
+          <parse>s(ver('12.2.12.131'),v(submit,t(simple,present,perfect)),sb('the applicant',singular),o('form one'))</parse>
+        </text>
+      </attribute>
+      <attribute name="56ddea5e-3c0b-4826-870a-3051fd470633" type="auto" public-name="prop_type" validation-message="Invalid value.">
+        <text>
+          <base>the property's type</base>
+        </text>
+      </attribute>
+      <attribute name="3adfa2b4-54df-44e8-b28c-2b7f8eea8b47" type="auto" public-name="prop_stateterritory" validation-message="Invalid value.">
+        <text>
+          <base>the property's state/territory</base>
+        </text>
+      </attribute>
+      <attribute name="985abdd2-cb60-4d97-bcab-79067576483f" type="boolean">
+        <text>
+          <base>the property is in Western Australia</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in Western Australia'))</parse>
+        </text>
+      </attribute>
+      <attribute name="98a4622f-7031-4c75-be9e-bc23f23b79c3" type="boolean" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>Property Details</base>
+          <parse>s(ver('12.2.12.131'),stat('Property Details'))</parse>
+        </text>
+      </attribute>
+      <attribute name="74d75db6-00ea-41d9-abb1-cca5f9f58c12" type="boolean">
+        <text>
+          <base>the property is in South Australia</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in South Australia'))</parse>
+        </text>
+      </attribute>
+      <attribute name="b9c7adb1-409e-4e46-9cb2-9c15581e0f09" type="boolean">
+        <text>
+          <base>the property is in Queensland</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in Queensland'))</parse>
+        </text>
+      </attribute>
+      <attribute name="fd89e090-60ed-4d62-8ffc-c36a11f697f6" type="boolean">
+        <text>
+          <base>the property is in Victoria</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in Victoria'))</parse>
+        </text>
+      </attribute>
+      <attribute name="53df33f0-42b1-4db0-8618-e04ee7efaf42" type="boolean">
+        <text>
+          <base>the property is in Tasmania</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in Tasmania'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e3b74e4c-0103-4847-8415-391ad650f8c6" type="number" validation-message="Invalid value." public-name="NT_folio" display-unformatted="true">
+        <text>
+          <base>the NT property's folio</base>
+        </text>
+      </attribute>
+      <attribute name="03a8bdb7-4afb-47c0-91ac-07a5f1997df5" type="number" validation-message="Invalid value." public-name="WA_plan" display-unformatted="true">
+        <text>
+          <base>the WA property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="7e8d70e7-781b-4785-ae59-8d981d40a519" type="number" display-unformatted="true" validation-message="Invalid value." public-name="WA_plantype">
+        <text>
+          <base>the WA property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="d82dbbc8-8e6c-4b36-a7ef-a48e56716f16" type="number" display-unformatted="true" validation-message="Invalid value." public-name="WA_lot">
+        <text>
+          <base>the WA property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="20ae6c60-ec9d-4343-b6ac-fb6906d6491b" type="number" display-unformatted="true" validation-message="Invalid value." public-name="TAS_folio">
+        <text>
+          <base>the TAS property's folio</base>
+        </text>
+      </attribute>
+      <attribute name="881a4b9f-f636-4d5d-9ad7-0f8ff31b7a75" type="number" display-unformatted="true" validation-message="Invalid value.">
+        <text>
+          <base>the QLD SA VIC property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="39bd0b0f-e94b-4bf5-a3aa-8745fdfe8291" type="number" display-unformatted="true" validation-message="Invalid value.">
+        <text>
+          <base>the QLD SA VIC property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="faafe505-1b31-4837-ab5e-22eb69d571e3" type="number" display-unformatted="true" validation-message="Invalid value." public-name="WA_volume">
+        <text>
+          <base>the WA property's volume</base>
+        </text>
+      </attribute>
+      <attribute name="14ed1cb8-fc87-4ccd-b297-f1bbdc6cce1e" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NSW_sectionblock">
+        <text>
+          <base>the NSW property's section/block</base>
+        </text>
+      </attribute>
+      <attribute name="3bd3df7f-eb0c-4dcf-aba9-919a7c05ea89" type="number" display-unformatted="true" validation-message="Invalid value." public-name="TAS_volume">
+        <text>
+          <base>the TAS property's volume</base>
+        </text>
+      </attribute>
+      <attribute name="f1b5803a-f381-440c-b205-0a7ff04a0a80" type="number" display-unformatted="true" validation-message="Invalid value.">
+        <text>
+          <base>the QLD SA VIC property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="7b95cf54-fa51-40c4-9dc7-163fda02eb56" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NSW_plan">
+        <text>
+          <base>the NSW property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="165d9ca0-93b4-49dc-ac66-6f0f7fa63d9d" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NT_lot">
+        <text>
+          <base>the NT property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="107ace58-a378-49ac-98df-4d972d10e078" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NT_sectionblock">
+        <text>
+          <base>the NT property's section/block</base>
+        </text>
+      </attribute>
+      <attribute name="9b1dc6c0-cd12-430d-a932-755ee03ce7bd" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NT_plantype">
+        <text>
+          <base>the NT property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="2eabd1f4-66e2-44f9-8399-4a50ea502a32" type="number" display-unformatted="true" validation-message="Invalid value." public-name="ACT_sectionblock">
+        <text>
+          <base>the ACT property's section/block</base>
+        </text>
+      </attribute>
+      <attribute name="9bc9b6d6-1e7b-45eb-b1a9-d37786967218" type="number" display-unformatted="true" validation-message="Invalid value." public-name="ACT_folio">
+        <text>
+          <base>the ACT property's folio</base>
+        </text>
+      </attribute>
+      <attribute name="73f7159d-e643-4431-a4b7-15d785a89ee9" type="number" display-unformatted="true" validation-message="Invalid value." public-name="ACT_volume">
+        <text>
+          <base>the ACT property's volume</base>
+        </text>
+      </attribute>
+      <attribute name="5814a4a7-4748-4794-97aa-12e81da9a69b" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NSW_lot">
+        <text>
+          <base>the NSW property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="4c543598-6d97-4d4f-b875-ed5ee99f1d75" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NT_plan">
+        <text>
+          <base>the NT property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="a9246ded-326f-4258-b4e5-fbe0fdfc8c5b" type="number" display-unformatted="true" validation-message="Invalid value." public-name="NSW_plantype">
+        <text>
+          <base>the NSW property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="9c1c0828-24c9-457e-ad7d-d3ce862a8335" type="number" display-unformatted="true" validation-message="Invalid value." public-name="WA_folio">
+        <text>
+          <base>the WA property's folio</base>
+        </text>
+      </attribute>
+      <attribute name="fa57934f-c390-47fb-9d40-cfd6c3010e6e" type="boolean">
+        <text>
+          <base>the property is in New South Wales</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in New South Wales'))</parse>
+        </text>
+      </attribute>
+      <attribute name="9f3e75a6-11d9-4555-974e-c998a246f6f7" type="boolean">
+        <text>
+          <base>the property is in Northern Territory</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in Northern Territory'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2d298efb-7514-460b-824e-7c25b0554009" type="boolean">
+        <text>
+          <base>the property is in Australian Capital Territory</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the property',singular),o('in Australian Capital Territory'))</parse>
+        </text>
+      </attribute>
+      <attribute name="9a9899d3-9bc3-4ab9-9f3d-b00c3283553e" type="number" display-unformatted="true" validation-message="Invalid value." public-name="SA_lot">
+        <text>
+          <base>the SA property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="5106a35f-f509-4808-bf67-4a41d61dc790" type="number" display-unformatted="true" validation-message="Invalid value." public-name="VIC_plantype">
+        <text>
+          <base>the VIC property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="4136e26a-6dcb-47a1-9932-61115ada9a64" type="number" display-unformatted="true" validation-message="Invalid value." public-name="SA_plantype">
+        <text>
+          <base>the SA property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="64e26994-cba6-46c5-8146-0349636fd819" type="number" display-unformatted="true" validation-message="Invalid value." public-name="SA_plan">
+        <text>
+          <base>the SA property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="32ed8e7b-5509-48c6-af26-30394b2b61ae" type="number" display-unformatted="true" validation-message="Invalid value." public-name="QLD_plan">
+        <text>
+          <base>the QLD property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="6694f0e0-75e1-4816-afa1-82a9467b8e21" type="number" display-unformatted="true" validation-message="Invalid value." public-name="VIC_lot">
+        <text>
+          <base>the VIC property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="25368067-d9de-4622-8672-1b8d856ea9f0" type="number" display-unformatted="true" validation-message="Invalid value." public-name="VIC_plan">
+        <text>
+          <base>the VIC property's plan</base>
+        </text>
+      </attribute>
+      <attribute name="1a16d903-3f8f-48a0-9f75-66938e7f2908" type="number" display-unformatted="true" validation-message="Invalid value." public-name="QLD_lot">
+        <text>
+          <base>the QLD property's lot</base>
+        </text>
+      </attribute>
+      <attribute name="9f80907a-7040-473f-bbe3-2b8ef98ffdb1" type="number" display-unformatted="true" validation-message="Invalid value." public-name="QLD_plantype">
+        <text>
+          <base>the QLD property's plan type</base>
+        </text>
+      </attribute>
+      <attribute name="40bdd1f4-3134-4588-9215-46f8d876894c" type="boolean" entity-override="true" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the contract was entered into by the purchaser and the vendor executing two copies of the contract in turn</base>
+          <parse>s(ver('12.2.7.797'),v(enter,t(simple,past,normal)),ob('the contract',singular),o('into by the purchaser and the vendor executing two copies of the contract in turn'))</parse>
+        </text>
+      </attribute>
+      <attribute name="5be68709-95fc-4218-962c-1cb7a8909d72" type="boolean" entity-override="true" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser is registered but does not purchase the property for a creditable purpose</base>
+          <parse>s(ver('12.2.7.797'),v(register,t(simple,present,normal)),ob('the purchaser',singular),o('but does not purchase the property for a creditable purpose'))</parse>
+        </text>
+      </attribute>
+      <attribute name="4d522049-8b09-42b3-a258-0ada663d5dac" type="boolean" user-created="true" validation-message="Invalid value." invisible-if-false="true">
+        <text>
+          <base>the purchaser is a ‘recipient' of a ‘taxable supply'</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the purchaser',singular),o('a ‘recipient'' of a ‘taxable supply'''))</parse>
+        </text>
+      </attribute>
+      <attribute name="686acc96-07e2-40bc-a173-02f5cfed8024" type="boolean" entity-override="true" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser is registered for GST</base>
+          <parse>s(ver('12.2.7.797'),v(register,t(simple,present,normal)),ob('the purchaser',singular),o('for GST'))</parse>
+        </text>
+      </attribute>
+      <attribute name="c8c2866f-8d6b-4e10-9a3b-7d9cc37b36ac" type="boolean" entity-override="true" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser is an entity</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the purchaser',singular),o('an entity'))</parse>
+        </text>
+      </attribute>
+      <attribute name="eba118f1-7d43-4ceb-a413-95a80f5eebc7" type="boolean" entity-override="true" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser will be liable to pay an amount to the Commissioner</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,future,normal)),sb('the purchaser',singular),o('liable to pay an amount to the Commissioner'))</parse>
+        </text>
+      </attribute>
+      <attribute name="44ab2e77-072e-4230-9c3c-b668565a9b17" type="text" validation-message="Invalid value." user-created="true">
+        <text>
+          <base>The user knows that the purchaser is a ‘recipient' of a ‘taxable supply'</base>
+        </text>
+        <enumeration-list ref-id="128e5a11-c1c6-4f9a-b755-0894e0ee3bca" />
+      </attribute>
+      <attribute name="240bb55d-f50e-4a09-b51e-94a2c05d8031" type="boolean" entity-override="true" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's details have been collected</base>
+          <parse>s(ver('12.2.12.131'),v(collect,t(simple,present,perfect)),ob('the purchaser''s details',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="44a09bfa-e983-48d6-bbda-ea198284cfef" type="boolean">
+        <text>
+          <base>the applicant has expressed a desire to fill out the forms</base>
+          <parse>s(ver('12.2.12.131'),v(have,t(simple,present,normal)),sb('the applicant',singular),o('expressed a desire to fill out the forms'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ddf6e883-62e0-4665-8f00-024c7a1eef24" type="boolean">
+        <text>
+          <base>the applicant's details provided in form one has not changed</base>
+          <parse>s(ver('12.2.12.131'),v(provide,t(simple,past,normal)),sb('the applicant''s details',plural),o('in form one has not changed'))</parse>
+        </text>
+      </attribute>
+      <attribute name="846811bb-ae28-44ec-9a3c-3cb4be07ee0d" type="boolean">
+        <text>
+          <base>the applicant's details have changed</base>
+          <parse>s(ver('12.2.12.131'),v(change,t(simple,present,perfect)),sb('the applicant''s details',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="7ad3eb7d-eccd-4fc5-abf6-acfafebd0833" type="boolean" validation-message="Invalid value." public-name="app_declaration_form2">
+        <text>
+          <base>the applicant agrees to the Form two declaration</base>
+          <parse>s(ver('12.2.12.131'),v(agree,t(simple,present,normal)),sb('the applicant',singular),o('to the Form two declaration'))</parse>
+        </text>
+      </attribute>
+      <attribute name="0d21e3c8-903a-4345-912b-5dde762b33cf" type="boolean">
+        <text>
+          <base>form 2 is complete</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('form 2',singular),o('complete'))</parse>
+        </text>
+      </attribute>
+      <attribute name="45f13803-47dc-415e-af53-6ba187a87069" type="boolean" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>Please proceed and complete the GST property settlement date confirmation.</base>
+          <parse>custom(p="Please proceed and complete the GST property settlement date confirmation.";);s(ver('12.2.12.131'),v(proceed,t(simple,present,normal)),sb('Please',plural),o('with completing the GST property settlement date confirmation.'))</parse>
+        </text>
+      </attribute>
+      <attribute name="498547d9-826c-426a-b4de-cf6ce58c6bec" type="boolean">
+        <text>
+          <base>the GST Property settlement withholding notification is complete</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the GST Property settlement withholding notification',singular),o('complete'))</parse>
+        </text>
+      </attribute>
+      <attribute name="5ac1d772-52a8-41da-b209-d01494420585" type="boolean">
+        <text>
+          <base>form 1 is complete</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('form 1',singular),o('complete'))</parse>
+        </text>
+      </attribute>
+      <attribute name="37a8634c-cefa-47c8-9fa2-16a2f0f622df" type="text" validation-message="Invalid value.">
+        <text>
+          <base>intent</base>
+        </text>
+      </attribute>
+      <attribute name="d24c29da-c4e6-4ec2-8065-a4c8e90957a9" type="auto">
+        <text>
+          <base>purchaser's Intent</base>
+        </text>
+      </attribute>
+      <attribute name="28b03172-efc4-4499-a5a9-38d4f1d9ace5" type="boolean">
+        <text>
+          <base>intermediate Goal will be displayed</base>
+          <parse>s(ver('12.2.12.131'),v(display,t(simple,future,normal)),ob('intermediate Goal',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="51042e7b-13d7-4575-90d6-ccb8cb4b62fb" type="boolean">
+        <text>
+          <base>the user desires to know their liability to the Commissioner under the GST at Settlement rules</base>
+          <parse>s(ver('12.2.12.131'),stat('the user desires to know their liability to the Commissioner under the GST at Settlement rules'))</parse>
+        </text>
+      </attribute>
+      <attribute name="773fc2c7-e400-4a94-9012-f7b63a31580f" type="boolean">
+        <text>
+          <base>the user desires to send the required form</base>
+          <parse>s(ver('12.2.12.131'),stat('the user desires to send the required form'))</parse>
+        </text>
+      </attribute>
+      <attribute name="892dc0ec-a981-4dcf-8fec-8ef2de8fd397" type="boolean">
+        <text>
+          <base>the premises has not previously been sold as a residential premises (other than commercial residential premises)</base>
+          <parse>s(ver('12.2.12.131'),v(have,t(simple,present,normal)),sb('the premises',singular),o('not previously been sold as a residential premises (other than commercial residential premises)'))</parse>
+        </text>
+      </attribute>
+      <attribute name="dd974e42-568a-40fb-b6e8-f21d107010a3" type="boolean">
+        <text>
+          <base>the premises has been built, or contain a building that has been built, to replace demolished premises on the same land</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,perfect)),sb('the premises',singular),o('built, or contain a building that has been built, to replace demolished premises on the same land'))</parse>
+        </text>
+      </attribute>
+      <attribute name="5bdbb0f2-9ae8-4966-841e-24be75ae5e2b" type="boolean">
+        <text>
+          <base>the supply of new residential premises has been created through substantial renovations</base>
+          <parse>s(ver('12.2.12.131'),v(create,t(simple,present,perfect)),ob('the supply of new residential premises',singular),o('through substantial renovations'))</parse>
+        </text>
+      </attribute>
+      <attribute name="065f5ef9-e88e-407c-8289-1cc173fa9b50" type="boolean">
+        <text>
+          <base>consideration for the supply, other than a deposit, is first provided before 1 July 2020</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('consideration for the supply, other than a deposit,',singular),o('first provided before 1 July 2020'))</parse>
+        </text>
+      </attribute>
+      <attribute name="54f256c7-9157-4b11-8b75-643a310a758c" type="boolean" public-name="Form_one_consent" validation-message="Invalid value." user-created="true">
+        <text>
+          <base>the applicant's has agreed to the declaration</base>
+          <parse>s(ver('12.2.12.140'),v(agree,t(simple,present,perfect)),sb('the applicant''s',singular),o('to the declaration'))</parse>
+        </text>
+      </attribute>
+      <attribute name="4895277f-f899-4700-8bbc-c2f4c8cc8ae9" type="boolean" entity-override="true" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the applicant is the purchaser</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the applicant',singular),o('the purchaser'))</parse>
+        </text>
+      </attribute>
+      <attribute name="95181329-dd3d-4608-94ec-5b4769fb02d1" type="text" public-name="purchaser" substitutable="true" default-gender="Generic" user-created="true" entity-override="true" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser</base>
+        </text>
+      </attribute>
+      <attribute name="89cf7eeb-b6f1-49a2-ba78-fcfd3c95b1e4" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the supplier's entity type</base>
+        </text>
+      </attribute>
+      <attribute name="fadf1d12-4bce-48f0-88e4-836eb69ee7f1" type="text" validation-message="Invalid value." public-name="supp_firstname">
+        <text>
+          <base>the supplier's first name</base>
+        </text>
+      </attribute>
+      <attribute name="e40ee1f9-8a3c-4bbf-a691-07dfd0f17c9a" type="text" validation-message="Invalid value." public-name="supp_lastname">
+        <text>
+          <base>the supplier's last name</base>
+        </text>
+      </attribute>
+      <attribute name="e785dc79-5881-400e-9004-df90afa09ef9" type="number" validation-message="Invalid value." public-name="supp_ABN" display-unformatted="true">
+        <text>
+          <base>the supplier's ABN</base>
+        </text>
+      </attribute>
+      <attribute name="3a5c4c74-42aa-4b71-9ce3-5de1e1eed649" type="text" validation-message="The phone must be in the folowing format with no spaces XXXXXXXXXX" public-name="supp_phone" regexp="^[0-9]{10}$">
+        <text>
+          <base>the supplier's phone number</base>
+        </text>
+      </attribute>
+      <attribute name="04aab979-8602-4dcc-9643-2460d95eb960" type="text" validation-message="Invalid value." public-name="supp_country">
+        <text>
+          <base>the supplier's country</base>
+        </text>
+      </attribute>
+      <attribute name="1ce0e4ee-6702-482f-b294-2e334ae16553" type="text" validation-message="Invalid value." public-name="supp_address">
+        <text>
+          <base>the supplier's address</base>
+        </text>
+      </attribute>
+      <attribute name="b42cdb5c-a393-41fc-b214-559b050b3476" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the supplier's suburb or town</base>
+        </text>
+      </attribute>
+      <attribute name="e7caf8bf-ba83-402d-876f-9c145bd653d0" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the supplier's state</base>
+        </text>
+      </attribute>
+      <attribute name="4dbf290c-7ecc-456a-9c13-d0d1666076f0" type="text" validation-message="Must be 4 digits in the following format XXXX" public-name="supp_postcode" regexp="^[0-9]{4}$">
+        <text>
+          <base>the supplier's postcode</base>
+        </text>
+      </attribute>
+      <attribute name="602b5ca8-1184-40a7-9766-75d47973b215" type="currency" validation-message="Invalid value." public-name="supp_withholding_amount">
+        <text>
+          <base>the supplier's withholding payment</base>
+        </text>
+      </attribute>
+      <attribute name="d79ea734-d0bb-4b7f-95f9-ec9a0c0fcbdc" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the supplier's entity name</base>
+        </text>
+      </attribute>
+      <attribute name="b2b89fd1-9c20-4ca8-9cd7-fd3bc0accd6e" type="text" validation-message="Invalid value." public-name="supp_suburb">
+        <text>
+          <base>the supplier's suburb/town</base>
+        </text>
+      </attribute>
+      <attribute name="6775e370-d572-4d82-8833-3d1207ec8710" type="text" validation-message="Invalid value." public-name="supp_companyname">
+        <text>
+          <base>the supplier's company name</base>
+        </text>
+      </attribute>
+      <attribute name="3df310e4-f2bd-4a90-9f87-51b921d6783d" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the supplier is an individual</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supplier',singular),o('an individual'))</parse>
+        </text>
+      </attribute>
+      <attribute name="af4b071f-13c2-44fd-bba5-b321f991d6ae" type="auto" public-name="supp_stateterritory" validation-message="Invalid value.">
+        <text>
+          <base>the supplier's state/territory</base>
+        </text>
+      </attribute>
+      <attribute name="f7ea149d-fc5a-4b63-bf50-494774e28379" type="text" validation-message="Invalid value." public-name="purch_country" entity-override="true" user-created="true">
+        <text>
+          <base>the purchaser's country</base>
+        </text>
+      </attribute>
+      <attribute name="290eebd1-fcf5-483b-8270-d3e7c2ab0805" type="text" public-name="new_entity" substitutable="true" default-gender="Generic" user-created="true">
+        <text>
+          <base>the new entity</base>
+        </text>
+      </attribute>
+      <attribute name="38ee80d0-44ca-43d8-b14d-8f433004b9d3" type="auto" public-name="purch_age" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's age</base>
+        </text>
+      </attribute>
+      <attribute name="55f1a53f-2e1f-4a84-ab28-6801637b0928" type="auto" public-name="purch_stateterritory" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's state/territory</base>
+        </text>
+      </attribute>
+      <attribute name="150f4d32-7e52-4474-b4d0-7847a4cae2d7" type="boolean">
+        <text>
+          <base>the purchaser is from New South Wales</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the purchaser',singular),o('from New South Wales'))</parse>
+        </text>
+      </attribute>
+      <attribute name="f4e1c9c1-92ca-4857-b29b-ceacf59812f8" type="text" validation-message="Invalid value." public-name="purch_suburb">
+        <text>
+          <base>the purchaser's suburb/town</base>
+        </text>
+      </attribute>
+      <attribute name="9f9dd25e-421b-4177-a4de-77a5cc1331ea" type="text" validation-message="Invalid value." public-name="purch_companyname">
+        <text>
+          <base>the purchaser's company name</base>
+        </text>
+      </attribute>
+      <attribute name="2cbe5cef-4743-430a-a949-f2c8d74f6f57" type="boolean" validation-message="Invalid value." user-created="true">
+        <text>
+          <base>the purchaser is an individual</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the purchaser',singular),o('an individual'))</parse>
+        </text>
+      </attribute>
+      <attribute name="deeac8a1-fe91-4c31-987e-16d4c5e65668" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's entity name</base>
+        </text>
+      </attribute>
+      <attribute name="2db25ac9-a7ec-4a78-9d80-4740a5f27b5b" type="number" validation-message="Must be between 0 and 100" public-name="purch_percentageownership" display-unformatted="true" min-value="0" max-value="100" user-created="true" int-only="true">
+        <text>
+          <base>the purchaser's percentage of ownership</base>
+        </text>
+      </attribute>
+      <attribute name="dbf70d76-34ea-4390-abfe-fb7251d6216a" type="number" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's postcode</base>
+        </text>
+      </attribute>
+      <attribute name="09635919-6d6e-4dc2-97a8-9fd93f908f34" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's state or territory</base>
+        </text>
+      </attribute>
+      <attribute name="8e454912-ca5b-40df-8aef-d9a98f963797" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's suburb or town</base>
+        </text>
+      </attribute>
+      <attribute name="b3cbcb96-6331-4297-b053-6dd931e8199e" type="text" validation-message="Invalid value." public-name="purch_address">
+        <text>
+          <base>the purchaser's address</base>
+        </text>
+      </attribute>
+      <attribute name="50ee7866-8a0e-427e-b4bd-c8796a340c99" type="number" validation-message="Invalid value." public-name="purch_TFN" display-unformatted="true">
+        <text>
+          <base>the purchaser's TFN</base>
+        </text>
+      </attribute>
+      <attribute name="977bbeda-af1c-4a72-83e2-8b5a66b03953" type="number" validation-message="Invalid value." public-name="purch_ABN" display-unformatted="true">
+        <text>
+          <base>the purchaser's ABN</base>
+        </text>
+      </attribute>
+      <attribute name="f143f263-bc56-4d68-abea-7e57665f1297" type="date" validation-message="Invalid value." public-name="purch_DOB">
+        <text>
+          <base>the purchaser's date of birth</base>
+        </text>
+      </attribute>
+      <attribute name="833ae112-cb77-4297-a98b-e621cc78e483" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's entity type</base>
+        </text>
+        <enumeration-list ref-id="2a7ceb7d-5fdd-487d-a7a1-d765f61bdb04" />
+      </attribute>
+      <attribute name="a9827882-4644-4663-859d-22c2da663d02" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser would like the ATO to contact them via email</base>
+          <parse>s(ver('12.2.7.797'),v(like+would,t(simple,modal,normal)),sb('the purchaser',plural),o('the ATO to contact them via email'))</parse>
+        </text>
+      </attribute>
+      <attribute name="917f5475-01b9-48b9-9ea8-df82f5b61df9" type="text" validation-message="The phone must be in the folowing format with no spaces XXXXXXXXXX" public-name="purch_phone" regexp="^[0-9]{10}$">
+        <text>
+          <base>the purchaser's phone number</base>
+        </text>
+      </attribute>
+      <attribute name="c379c6d3-9fce-4b45-949f-167aa5cc04d4" type="text" validation-message="Invalid value." public-name="purch_lastname">
+        <text>
+          <base>the purchaser's last name</base>
+        </text>
+      </attribute>
+      <attribute name="50d75371-b0f1-4674-82dc-ab81f33e0519" type="text" validation-message="Invalid value." public-name="purch_firstname">
+        <text>
+          <base>the purchaser's first name</base>
+        </text>
+      </attribute>
+      <attribute name="4462beaf-d22c-47c1-ad5f-1035d660763f" type="text" validation-message="Invalid value." regexp="@">
+        <text>
+          <base>the purchaser's email</base>
+        </text>
+      </attribute>
+      <attribute name="dfc29478-de1f-4116-91b8-2f4f94b1913a" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the purchaser's title</base>
+        </text>
+      </attribute>
+      <attribute name="c07e44d5-7e31-4c47-b839-6c91dd4122ba" type="boolean">
+        <text>
+          <base>GST at Settlement will apply to the purchaser</base>
+          <parse>s(ver('12.2.7.797'),v(apply,t(simple,future,normal)),sb('GST at Settlement',plural),o('to the purchaser'))</parse>
+        </text>
+      </attribute>
+      <attribute name="4a7623e4-6820-455b-8b73-3f5204485866" type="boolean">
+        <text>
+          <base>the purchaser is the ‘recipient' of a taxably supply</base>
+          <parse>s(ver('12.2.7.797'),v(be,t(simple,present,normal)),sb('the purchaser',singular),o('the ‘recipient'' of a taxably supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="7ba6fc8c-5fd3-4d2b-b542-efbd625b8520" type="boolean">
+        <text>
+          <base>the purchaser desires to know their liability to the Commissioner under the GST at Settlement rules</base>
+          <parse>s(ver('12.2.12.131'),stat('the purchaser desires to know their liability to the Commissioner under the GST at Settlement rules'))</parse>
+        </text>
+      </attribute>
+      <attribute name="9c89c54c-ba39-434d-81b0-7492496e6ceb" type="boolean">
+        <text>
+          <base>the purchaser desires to send the required form</base>
+          <parse>s(ver('12.2.12.131'),stat('the purchaser desires to send the required form'))</parse>
+        </text>
+      </attribute>
+      <attribute name="fbfb2ce6-028c-46c1-b4b3-2f1ef7c0c81c" type="boolean">
+        <text>
+          <base>the applicant's details have remained the same</base>
+          <parse>s(ver('12.2.12.131'),v(remain,t(simple,present,perfect)),sb('the applicant''s details',plural),o('the same'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e8c1b666-ea80-48c3-914d-33db56c76da4" type="boolean">
+        <text>
+          <base>the applicant is eligible to complete form 2</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the applicant',singular),o('eligible to complete form 2'))</parse>
+        </text>
+      </attribute>
+      <attribute name="1c65cb98-8df8-4cf5-acc7-1d654e12dce9" type="boolean">
+        <text>
+          <base>the applicant has submitted form one and their details have not changed</base>
+          <parse>s(ver('12.2.12.131'),v(submit,t(simple,present,perfect)),sb('the applicant',singular),o('form one and their details have not changed'))</parse>
+        </text>
+      </attribute>
+      <attribute name="15835437-4b60-47ab-ba10-61e1f921bbec" type="boolean">
+        <text>
+          <base>the applicant is required to fill in form one</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the applicant',singular),o('to fill in form one'))</parse>
+        </text>
+      </attribute>
+      <attribute name="056ec235-ce34-4f08-b776-f6379a82a1f6" type="boolean">
+        <text>
+          <base>the applicant is eligible to complete form two</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the applicant',singular),o('eligible to complete form two'))</parse>
+        </text>
+      </attribute>
+      <attribute name="8d48edae-f460-4f29-9aa9-4b505a21b401" type="boolean" invisible-if-false="true" validation-message="Invalid value.">
+        <text>
+          <base>the supply is of new residential premises</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('of new residential premises'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e5d396bf-e80a-46a9-9faf-4783797ab596" type="boolean">
+        <text>
+          <base>the entity explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the entity explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="37756618-32c6-4ecc-a8cd-e3e616873dce" type="boolean">
+        <text>
+          <base>the consideration explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the consideration explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="21c51cf4-7d43-49ab-909a-3213cb9c8a4c" type="boolean">
+        <text>
+          <base>the enterprise explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the enterprise explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="602f441b-a1ad-4833-9af2-2116f5b89468" type="boolean">
+        <text>
+          <base>the supply connected with Australia explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(connect,t(simple,past,normal)),sb('the supply',plural),o('with Australia explanation is required'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e7879e55-b1a3-423a-8926-0206f4a491af" type="boolean">
+        <text>
+          <base>the registration threshold explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the registration threshold explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="c189777c-79ee-4c35-8142-df6dc1b23de7" type="boolean">
+        <text>
+          <base>the GST-free supply explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(supply,t(simple,present,normal)),sb('the GST-free',plural),o('explanation is required'))</parse>
+        </text>
+      </attribute>
+      <attribute name="f0e5865e-d46c-4ebf-8986-ec114b952341" type="boolean">
+        <text>
+          <base>the sale of the residential premises imput taxed explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the sale of the residential premises imput taxed explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="77978f8e-37bb-4451-ac30-6fdb55b8e627" type="boolean">
+        <text>
+          <base>the supply explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the supply explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="69d3ef0f-1983-493c-8f91-93fa915f082a" type="boolean">
+        <text>
+          <base>the sale explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the sale explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="da3ca6c1-e100-47f4-a1f4-88e195f7878b" type="boolean">
+        <text>
+          <base>the long-term lease explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the long-term lease explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="ca950c16-e761-4ad3-b02c-f0d93e2bb7a1" type="boolean">
+        <text>
+          <base>the new residential premise explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the new residential premise explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="9024c1fc-f976-4989-aed5-2a21fd339d83" type="boolean">
+        <text>
+          <base>the demolished explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the demolished explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="157992b4-0f86-4dfc-a199-b3ac3592f4f7" type="boolean">
+        <text>
+          <base>the substantial renovation explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the substantial renovation explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="d0df2193-b96f-4b6e-9c8c-3dcfe363de40" type="boolean">
+        <text>
+          <base>the commercial residential premises explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the commercial residential premises explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="87e042d7-987f-4586-bd17-ef64c39fc16d" type="boolean">
+        <text>
+          <base>the potential residential land explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the potential residential land explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="c2bc86ec-5a3c-4b1b-8744-04e57e90d3dc" type="boolean">
+        <text>
+          <base>the property subdivision plan explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the property subdivision plan explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="1ef36bbd-181d-4983-b318-d0f8d0ea478b" type="boolean">
+        <text>
+          <base>the use and commercial purpose explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the use and commercial purpose explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="ebc9a9f2-459a-4cec-9319-1153d082fa27" type="boolean">
+        <text>
+          <base>the GST registration explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the GST registration explanation',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="c98b36ce-6d82-43f6-8258-922cbf8b504f" type="boolean">
+        <text>
+          <base>the time a contract is entered into explanation is required</base>
+          <parse>s(ver('12.2.12.131'),v(enter,t(simple,present,normal)),ob('the time a contract',singular),o('into explanation is required'))</parse>
+        </text>
+      </attribute>
+      <attribute name="4396b64f-b97a-41d6-9283-4eb8a9edc13b" type="auto">
+        <text>
+          <base>the contract value</base>
+        </text>
+      </attribute>
+      <attribute name="3a2e7383-53ae-4f0b-b92b-25a0f7b5a069" type="boolean">
+        <text>
+          <base>the margin scheme applies</base>
+          <parse>s(ver('12.2.12.131'),v(apply,t(simple,present,normal)),sb('the margin scheme',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="7f453898-3173-4fdf-bba6-55f8ee930e65" type="boolean">
+        <text>
+          <base>the supply is between associates</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('between associates'))</parse>
+        </text>
+      </attribute>
+      <attribute name="5b8c7f80-bab0-467f-a391-843083ca5b5d" type="text" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the amount to be withheld by the purchaser</base>
+        </text>
+      </attribute>
+      <attribute name="c67be9ac-00da-4006-8a25-52ebeca8a6af" type="boolean">
+        <text>
+          <base>the supplier and purchaser have agreed in writing that the margin scheme is to apply before making the supply</base>
+          <parse>s(ver('12.2.12.131'),v(agree,t(simple,present,perfect)),sb('the supplier and purchaser',plural),o('in writing that the margin scheme is to apply before making the supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="8182dc01-e312-42d9-b42b-22c5abfd1576" type="boolean">
+        <text>
+          <base>there are multiple recipients</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('there',plural),o('multiple recipients'))</parse>
+        </text>
+      </attribute>
+      <attribute name="08ae77c6-8c05-4e81-b75e-4b8291ff4990" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the supply is only partly a supply of new residential premises or potential residential land</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('only partly a supply of new residential premises or potential residential land'))</parse>
+        </text>
+      </attribute>
+      <attribute name="3cdc3738-c9cb-4549-8887-839964c5fdc6" type="auto">
+        <text>
+          <base>percentage of ownership</base>
+        </text>
+      </attribute>
+      <attribute name="f7a80fd3-c4df-41e3-ab20-dfba294339f8" type="boolean" user-created="true" validation-message="Invalid value.">
+        <text>
+          <base>the user knows that the margin scheme applies</base>
+          <parse>s(ver('12.2.12.131'),v(know,t(simple,present,normal)),sb('the user',singular),o('that the margin scheme applies'))</parse>
+        </text>
+      </attribute>
+      <attribute name="63fadd3c-4ee1-47c9-8493-f00b8a4be443" type="boolean">
+        <text>
+          <base>the user knows the supply is between associates</base>
+          <parse>s(ver('12.2.12.131'),v(know,t(simple,present,normal)),sb('the user',singular),o('the supply is between associates'))</parse>
+        </text>
+      </attribute>
+      <attribute name="af98fadb-c75d-479e-b570-197602cd81c5" type="boolean">
+        <text>
+          <base>the user has selected margin scheme</base>
+          <parse>s(ver('12.2.12.131'),v(select,t(simple,present,perfect)),sb('the user',singular),o('margin scheme'))</parse>
+        </text>
+      </attribute>
+      <attribute name="fb7ae466-7570-4bad-b6c8-d3a842c82422" type="auto">
+        <text>
+          <base>payment Type</base>
+        </text>
+        <enumeration-list ref-id="acb2fd64-1f46-4bbe-aceb-b772b52cb758" />
+      </attribute>
+      <attribute name="e61ee430-9bba-46b4-a737-2cdbb88ca0e5" type="boolean">
+        <text>
+          <base>the Margin Scheme may apply</base>
+          <parse>s(ver('12.2.12.131'),v(apply+may,t(simple,modal,normal)),sb('the Margin Scheme',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="b96824f4-d8c8-491d-92fa-67cddfd71a77" type="boolean">
+        <text>
+          <base>the user knows that the supply is only partly a supply of new residential premises or potential residential land</base>
+          <parse>s(ver('12.2.12.131'),v(know,t(simple,present,normal)),sb('the user',singular),o('that the supply is only partly a supply of new residential premises or potential residential land'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ee9e3c6c-9ae5-4c75-b14b-1a3b06719110" type="boolean">
+        <text>
+          <base>the user knows there are multiple recipients</base>
+          <parse>s(ver('12.2.12.131'),v(know,t(simple,present,normal)),sb('the user',singular),o('there are multiple recipients'))</parse>
+        </text>
+      </attribute>
+      <attribute name="dd531f9d-7578-4a7c-8d93-bb70a55dfa5e" type="boolean">
+        <text>
+          <base>the Between Associates may apply</base>
+          <parse>s(ver('12.2.12.131'),v(apply+may,t(simple,modal,normal)),sb('the Between Associates',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="00f05200-9d41-49e7-98f9-6f950e5ae15a" type="boolean">
+        <text>
+          <base>the Supply Between Associates may apply</base>
+          <parse>s(ver('12.2.12.131'),v(apply+may,t(simple,modal,normal)),sb('the Supply Between Associates',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="3c957977-a385-4f9e-9958-640f03e36983" type="boolean">
+        <text>
+          <base>the Part Supply may apply</base>
+          <parse>s(ver('12.2.12.131'),v(apply+may,t(simple,modal,normal)),sb('the Part Supply',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="a0912888-99b7-48dd-958d-f5fb965a7d02" type="boolean">
+        <text>
+          <base>the Multiple Recipients may apply</base>
+          <parse>s(ver('12.2.12.131'),v(apply+may,t(simple,modal,normal)),sb('the Multiple Recipients',plural))</parse>
+        </text>
+      </attribute>
+      <attribute name="411246b5-371c-40d7-b3bf-e69b68f13b9f" type="boolean">
+        <text>
+          <base>the supply is only partly a supply of new residential premises or potential residential</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('only partly a supply of new residential premises or potential residential'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e0042d34-20d1-4e14-ba1a-8a00f71ff4fd" type="text" validation-message="Invalid value.">
+        <text>
+          <base>the margin scheme</base>
+        </text>
+      </attribute>
+      <attribute name="d4333fac-f366-41a4-b6e2-349ce979543f" type="boolean">
+        <text>
+          <base>the supply is only partly a supply of new residential premises or potential residential land criteria applies</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('only partly a supply of new residential premises or potential residential land criteria applies'))</parse>
+        </text>
+      </attribute>
+      <attribute name="80bb3812-83dc-44e9-bbb7-b75d22852c19" type="boolean">
+        <text>
+          <base>the agreement must be made on or before the making of the supply</base>
+          <parse>s(ver('12.2.12.131'),v(make+must,t(simple,modal,normal)),ob('the agreement',singular),o('on or before the making of the supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="25272529-0d54-4ac1-879b-74138c4b76b8" type="boolean">
+        <text>
+          <base>the agreement must have be made on or before the making of the supply</base>
+          <parse>s(ver('12.2.12.131'),v(have+must,t(simple,modal,normal)),sb('the agreement',plural),o('be made on or before the making of the supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="61039a5b-ad62-4bae-8ced-8f12319af7ca" type="boolean">
+        <text>
+          <base>a trustee of a trust where the primary entity, or another entity that is an associate of the primary entity because of another paragraph of this subsection, benefits under the trust</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('a trustee of a trust where the primary entity, or another entity that',singular),o('an associate of the primary entity because of another paragraph of this subsection, benefits under the trust'))</parse>
+        </text>
+      </attribute>
+      <attribute name="aeceafd3-9988-4745-bbc8-d410a05acb00" type="boolean">
+        <text>
+          <base>a partner of the primary entity or a partnership in which the primary entity is a partner</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('a partner of the primary entity or a partnership in which the primary entity',singular),o('a partner'))</parse>
+        </text>
+      </attribute>
+      <attribute name="59faaa15-0a5a-4ce7-ba6c-fb43fa791a8b" type="boolean">
+        <text>
+          <base>the purchaser is a relative if the primary entity</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the purchaser',singular),o('a relative if the primary entity'))</parse>
+        </text>
+      </attribute>
+      <attribute name="ae143c45-b635-49fb-b72b-f8e2c710ba5b" type="boolean">
+        <text>
+          <base>if a partner of the primary entity is a natural person otherwise than in the capacity of a trustee, the spouse of a child of that partner</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('if a partner of the primary entity',singular),o('a natural person otherwise than in the capacity of a trustee, the spouse of a child of that partner'))</parse>
+        </text>
+      </attribute>
+      <attribute name="7fc10a4d-885f-4aa6-8a99-b93f77407149" type="boolean">
+        <text>
+          <base>the first question for supply between associates is required</base>
+          <parse>s(ver('12.2.12.131'),v(supply,t(simple,present,normal)),sb('the first question for',plural),o('between associates is required'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2482e4bf-b6e0-4bc1-a744-caf14caf41d9" type="boolean">
+        <text>
+          <base>the test for when a purchaser is an associate is required</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the test for when a purchaser',singular),o('an associate is required'))</parse>
+        </text>
+      </attribute>
+      <attribute name="f81190db-0349-4a4c-81f4-9322123257ed" type="boolean">
+        <text>
+          <base>the percentage of supply/ownership taken, was less than 100%</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,past,normal)),sb('the percentage of supply/ownership taken,',singular),o('less than 100%'))</parse>
+        </text>
+      </attribute>
+      <attribute name="afeec055-2710-4390-a5ee-dc9c3bf52e19" type="boolean">
+        <text>
+          <base>it is practical to ascertain the portion of consideration that relates to the supply</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('it',singular),o('practical to ascertain the portion of consideration that relates to the supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="d7a707b5-691c-4868-9235-7a96ee6f9fc5" type="boolean">
+        <text>
+          <base>there are more than one recipient</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('there',plural),o('more than one recipient'))</parse>
+        </text>
+      </attribute>
+      <attribute name="dbda3fa5-cb27-4107-a159-ed2bc4f3737f" type="boolean">
+        <text>
+          <base>there is more than one recipient</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('there',singular),o('more than one recipient'))</parse>
+        </text>
+      </attribute>
+      <attribute name="2f148325-5113-42ff-8f86-4172d42728cc" type="boolean">
+        <text>
+          <base>the explanation for more than one recipient is required</base>
+          <parse>s(ver('12.2.12.131'),v(require,t(simple,present,normal)),ob('the explanation for more than one recipient',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="cb402d1e-19f8-4df8-8778-ff02d0944920" type="boolean">
+        <text>
+          <base>the potential residential land screen will be shown</base>
+          <parse>s(ver('12.2.12.131'),v(screen,t(simple,present,normal)),sb('the potential residential land',plural),o('will be shown'))</parse>
+        </text>
+      </attribute>
+      <attribute name="46c166e3-671c-421a-adb9-56dc6e2a889e" type="boolean">
+        <text>
+          <base>the Withholding Payment Amount section will only be shown</base>
+          <parse>s(ver('12.2.12.131'),v(will,t(simple,present,normal)),sb('the Withholding Payment Amount section',plural),o('only be shown'))</parse>
+        </text>
+      </attribute>
+      <attribute name="45f93894-150b-4137-b408-43ebad859ab5" type="boolean" invisible-if-true="true" invisible-if-false="true" invisible-if-uncertain="true" invisible-if-unknown="true" validation-message="Invalid value.">
+        <text>
+          <base>the explanation of recipient of a taxable supply is not required</base>
+          <parse>s(ver('12.2.12.131'),v(supply,t(simple,present,normal)),sb('the explanation of recipient of a taxable',plural),o('is not required'))</parse>
+        </text>
+      </attribute>
+      <attribute name="30517292-6987-420f-abed-8dceac6ae60b" type="auto" public-name="date_submission" validation-message="Invalid value.">
+        <text>
+          <base>the date of submission</base>
+        </text>
+      </attribute>
+      <attribute name="3c5444c2-bd86-45b8-8685-e24d20867ff1" type="boolean" validation-message="Invalid value.">
+        <text>
+          <base>the applicant's consent (form one) has been collected</base>
+          <parse>s(ver('12.2.12.140'),v(collect,t(simple,present,perfect)),ob('the applicant''s consent (form one)',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="54f37d12-4509-4e9a-b0bf-a9c6e4450d7a" type="boolean">
+        <text>
+          <base>the user would like to provide feedback</base>
+          <parse>s(ver('12.2.12.140'),v(like+would,t(simple,modal,normal)),sb('the user',plural),o('to provide feedback'))</parse>
+        </text>
+      </attribute>
+      <attribute name="da981830-109c-4d02-b27d-b89284798576" type="auto">
+        <text>
+          <base>legal accuracy</base>
+        </text>
+      </attribute>
+      <attribute name="5b341976-1a21-4481-b973-b9bb9d692a3c" type="auto">
+        <text>
+          <base>useability</base>
+        </text>
+      </attribute>
+      <attribute name="61653754-7286-4cad-b618-43f54f00cfbd" type="auto">
+        <text>
+          <base>overall experience</base>
+        </text>
+      </attribute>
+      <attribute name="d665ee78-ece9-4b95-aa4f-2ab75218a651" type="auto">
+        <text>
+          <base>satisfied</base>
+        </text>
+      </attribute>
+      <attribute name="8d866005-4c57-4ab3-a689-dccda02b6a37" type="boolean">
+        <text>
+          <base>the user provides feedback on their "satisfaction"</base>
+          <parse>s(ver('12.2.12.140'),v(provide,t(simple,present,normal)),sb('the user',singular),o('feedback on their "satisfaction"'))</parse>
+        </text>
+      </attribute>
+      <attribute name="d60e0699-d7ec-4a36-ab7f-6546ba5bfd3d" type="boolean" silent-if-true="true" silent-if-false="true" silent-if-uncertain="true" silent-if-unknown="true" invisible-if-true="true" invisible-if-false="true" invisible-if-uncertain="true" invisible-if-unknown="true" validation-message="Invalid value.">
+        <text>
+          <base>the user is unsure of whether the purchaser is a recipient of taxable supply</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the user',singular),o('unsure of whether the purchaser is a recipient of taxable supply'))</parse>
+        </text>
+      </attribute>
+      <attribute name="e514120b-74bd-4165-a9e3-5b7ddb1af896" type="boolean" validation-message="Invalid value." invisible-if-false="true">
+        <text>
+          <base>the supply is of potential residential land</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,present,normal)),sb('the supply',singular),o('of potential residential land'))</parse>
+        </text>
+      </attribute>
+      <attribute name="a973a024-5d2d-46fe-9a0b-4f3b08076090" type="boolean">
+        <text>
+          <base>the contract price has been generated</base>
+          <parse>s(ver('12.2.12.131'),v(generate,t(simple,present,perfect)),ob('the contract price',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="2b067e11-02db-4e2d-a98b-e3f58cd1493b" type="boolean">
+        <text>
+          <base>the form section will be shown</base>
+          <parse>s(ver('12.2.12.131'),v(show,t(simple,future,normal)),ob('the form section',singular))</parse>
+        </text>
+      </attribute>
+      <attribute name="89b4f723-895d-4609-a029-b5dd459da511" type="boolean">
+        <text>
+          <base>the explanation regarding the why the form section was skipped will be shown</base>
+          <parse>s(ver('12.2.12.131'),v(be,t(simple,past,normal)),sb('the explanation regarding the why the form section',singular),o('skipped will be shown'))</parse>
+        </text>
+      </attribute>
+    </entity>
+  </entities>
+  <relationships></relationships>
+</root>
