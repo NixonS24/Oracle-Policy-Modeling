@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<enumerations product-version="12.2.12.131">
+  <project-enum id="2a7ceb7d-5fdd-487d-a7a1-d765f61bdb04" type="text" name="Entity Type">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Individual" />
+    <enum-val value="Non-individual" />
+  </project-enum>
+  <project-enum id="128e5a11-c1c6-4f9a-b755-0894e0ee3bca" type="text" name="Recipient_Taxable_Supply">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Yes" />
+    <enum-val value="No" />
+    <enum-val value="More Info" />
+  </project-enum>
+  <project-enum id="585201cb-f2e4-4972-9ee9-685822043fdb" type="text" name="Sale_Or_Long_Term_Lease">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Yes" />
+    <enum-val value="No" />
+    <enum-val value="More Info" />
+  </project-enum>
+  <project-enum id="b5626b5d-05f3-4724-8348-c33f51b4acee" type="text" name="New_Residential_Premise_Or_Potential_Residential_Land">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Yes" />
+    <enum-val value="No" />
+    <enum-val value="More Info" />
+  </project-enum>
+  <project-enum id="87c4b499-b4d6-4e34-ab14-78edf6bc4b12" type="text" name="Transitonal_Rules">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Yes" />
+    <enum-val value="No" />
+    <enum-val value="More Info" />
+  </project-enum>
+  <project-enum id="d67e8218-755b-4fba-8da1-ac27afa571d8" type="text" name="Countries">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Australia" />
+    <enum-val value="Other" />
+  </project-enum>
+  <project-enum id="6bb5c707-7f1c-4b15-a87c-6b1d806e7a79" type="text" name="Intent">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Liability" />
+    <enum-val value="Forms" />
+    <enum-val value="Both" />
+  </project-enum>
+  <project-enum id="556c2201-2f2d-4021-b836-2e50c1aa8367" type="text" name="Title">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Mr" />
+    <enum-val value="Mrs" />
+    <enum-val value="Miss" />
+    <enum-val value="Ms" />
+    <enum-val value="Other" />
+  </project-enum>
+  <project-enum id="acb2fd64-1f46-4bbe-aceb-b772b52cb758" type="text" name="Payment_Type">
+    <enum-val is-uncertain="true" />
+    <enum-val value="Margin Scheme" />
+    <enum-val value="Between associates" />
+    <enum-val value="Partly a supply of residential premises" />
+    <enum-val value="Multiple recipients" />
+    <enum-val value="General case" />
+  </project-enum>
+</enumerations>

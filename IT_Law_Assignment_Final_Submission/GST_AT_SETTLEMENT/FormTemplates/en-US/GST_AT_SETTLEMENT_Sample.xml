@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<global-instance>
+  <app_title_value>app_title_DATA1</app_title_value>
+  <app_title_text>the applicant's title</app_title_text>
+  <app_firstname_value>app_firstname_DATA2</app_firstname_value>
+  <app_firstname_text>the applicant's first name</app_firstname_text>
+  <app_lastname_value>app_lastname_DATA3</app_lastname_value>
+  <app_lastname_text>the applicant's last name</app_lastname_text>
+  <app_phone_value>app_phone_DATA4</app_phone_value>
+  <app_phone_text>the applicant's phone number</app_phone_text>
+  <app_email_value>app_email_DATA5</app_email_value>
+  <app_email_text>the applicant's email</app_email_text>
+  <contract_date_value>11/12/2018</contract_date_value>
+  <contract_date_text>the contract date</contract_date_text>
+  <expected_settlement_date_value>11/12/2018</expected_settlement_date_value>
+  <expected_settlement_date_text>the expected settlement date</expected_settlement_date_text>
+  <contract_price_value>$8.48</contract_price_value>
+  <contract_price_text>the contract price</contract_price_text>
+  <app_status_value>app_status_DATA9</app_status_value>
+  <app_status_text>the applicant's status</app_status_text>
+  <settlement_date_value>11/12/2018</settlement_date_value>
+  <settlement_date_text>the settlement date</settlement_date_text>
+  <app_paymentreference_value>11</app_paymentreference_value>
+  <app_paymentreference_text>the applicant's payment reference number</app_paymentreference_text>
+  <prop_postcode_value>prop_postcode_DATA12</prop_postcode_value>
+  <prop_postcode_text>the property's postcode</prop_postcode_text>
+  <total_withholding_amount_value>$13.48</total_withholding_amount_value>
+  <total_withholding_amount_text>the total withholding amount</total_withholding_amount_text>
+  <prop_suburb_value>prop_suburb_DATA14</prop_suburb_value>
+  <prop_suburb_text>the property's suburb/town</prop_suburb_text>
+  <app_lodgementreference_value>15</app_lodgementreference_value>
+  <app_lodgementreference_text>the applicant's lodgement reference number</app_lodgementreference_text>
+  <prop_address_value>prop_address_DATA16</prop_address_value>
+  <prop_address_text>the property's address (line 1)</prop_address_text>
+  <prop_type_value>prop_type_DATA17</prop_type_value>
+  <prop_type_text>the property's type</prop_type_text>
+  <prop_stateterritory_value>prop_stateterritory_DATA18</prop_stateterritory_value>
+  <prop_stateterritory_text>the property's state/territory</prop_stateterritory_text>
+  <NT_folio_value>19</NT_folio_value>
+  <NT_folio_text>the NT property's folio</NT_folio_text>
+  <WA_plan_value>20</WA_plan_value>
+  <WA_plan_text>the WA property's plan</WA_plan_text>
+  <WA_plantype_value>21</WA_plantype_value>
+  <WA_plantype_text>the WA property's plan type</WA_plantype_text>
+  <WA_lot_value>22</WA_lot_value>
+  <WA_lot_text>the WA property's lot</WA_lot_text>
+  <TAS_folio_value>23</TAS_folio_value>
+  <TAS_folio_text>the TAS property's folio</TAS_folio_text>
+  <WA_volume_value>24</WA_volume_value>
+  <WA_volume_text>the WA property's volume</WA_volume_text>
+  <NSW_sectionblock_value>25</NSW_sectionblock_value>
+  <NSW_sectionblock_text>the NSW property's section/block</NSW_sectionblock_text>
+  <TAS_volume_value>26</TAS_volume_value>
+  <TAS_volume_text>the TAS property's volume</TAS_volume_text>
+  <NSW_plan_value>27</NSW_plan_value>
+  <NSW_plan_text>the NSW property's plan</NSW_plan_text>
+  <NT_lot_value>28</NT_lot_value>
+  <NT_lot_text>the NT property's lot</NT_lot_text>
+  <NT_sectionblock_value>29</NT_sectionblock_value>
+  <NT_sectionblock_text>the NT property's section/block</NT_sectionblock_text>
+  <NT_plantype_value>30</NT_plantype_value>
+  <NT_plantype_text>the NT property's plan type</NT_plantype_text>
+  <ACT_sectionblock_value>31</ACT_sectionblock_value>
+  <ACT_sectionblock_text>the ACT property's section/block</ACT_sectionblock_text>
+  <ACT_folio_value>32</ACT_folio_value>
+  <ACT_folio_text>the ACT property's folio</ACT_folio_text>
+  <ACT_volume_value>33</ACT_volume_value>
+  <ACT_volume_text>the ACT property's volume</ACT_volume_text>
+  <NSW_lot_value>34</NSW_lot_value>
+  <NSW_lot_text>the NSW property's lot</NSW_lot_text>
+  <NT_plan_value>35</NT_plan_value>
+  <NT_plan_text>the NT property's plan</NT_plan_text>
+  <NSW_plantype_value>36</NSW_plantype_value>
+  <NSW_plantype_text>the NSW property's plan type</NSW_plantype_text>
+  <WA_folio_value>37</WA_folio_value>
+  <WA_folio_text>the WA property's folio</WA_folio_text>
+  <SA_lot_value>38</SA_lot_value>
+  <SA_lot_text>the SA property's lot</SA_lot_text>
+  <VIC_plantype_value>39</VIC_plantype_value>
+  <VIC_plantype_text>the VIC property's plan type</VIC_plantype_text>
+  <SA_plantype_value>40</SA_plantype_value>
+  <SA_plantype_text>the SA property's plan type</SA_plantype_text>
+  <SA_plan_value>41</SA_plan_value>
+  <SA_plan_text>the SA property's plan</SA_plan_text>
+  <QLD_plan_value>42</QLD_plan_value>
+  <QLD_plan_text>the QLD property's plan</QLD_plan_text>
+  <VIC_lot_value>43</VIC_lot_value>
+  <VIC_lot_text>the VIC property's lot</VIC_lot_text>
+  <VIC_plan_value>44</VIC_plan_value>
+  <VIC_plan_text>the VIC property's plan</VIC_plan_text>
+  <QLD_lot_value>45</QLD_lot_value>
+  <QLD_lot_text>the QLD property's lot</QLD_lot_text>
+  <QLD_plantype_value>46</QLD_plantype_value>
+  <QLD_plantype_text>the QLD property's plan type</QLD_plantype_text>
+  <app_declaration_form2_value>true</app_declaration_form2_value>
+  <app_declaration_form2_text>the applicant agrees to the Form two declaration</app_declaration_form2_text>
+  <Form_one_consent_value>true</Form_one_consent_value>
+  <Form_one_consent_text>the applicant's has agreed to the declaration</Form_one_consent_text>
+  <purchaser_value>purchaser_DATA49</purchaser_value>
+  <purchaser_text>the purchaser</purchaser_text>
+  <supp_firstname_value>supp_firstname_DATA50</supp_firstname_value>
+  <supp_firstname_text>the supplier's first name</supp_firstname_text>
+  <supp_lastname_value>supp_lastname_DATA51</supp_lastname_value>
+  <supp_lastname_text>the supplier's last name</supp_lastname_text>
+  <supp_ABN_value>52</supp_ABN_value>
+  <supp_ABN_text>the supplier's ABN</supp_ABN_text>
+  <supp_phone_value>supp_phone_DATA53</supp_phone_value>
+  <supp_phone_text>the supplier's phone number</supp_phone_text>
+  <supp_country_value>supp_country_DATA54</supp_country_value>
+  <supp_country_text>the supplier's country</supp_country_text>
+  <supp_address_value>supp_address_DATA55</supp_address_value>
+  <supp_address_text>the supplier's address</supp_address_text>
+  <supp_postcode_value>supp_postcode_DATA56</supp_postcode_value>
+  <supp_postcode_text>the supplier's postcode</supp_postcode_text>
+  <supp_withholding_amount_value>$57.48</supp_withholding_amount_value>
+  <supp_withholding_amount_text>the supplier's withholding payment</supp_withholding_amount_text>
+  <supp_suburb_value>supp_suburb_DATA58</supp_suburb_value>
+  <supp_suburb_text>the supplier's suburb/town</supp_suburb_text>
+  <supp_companyname_value>supp_companyname_DATA59</supp_companyname_value>
+  <supp_companyname_text>the supplier's company name</supp_companyname_text>
+  <supp_stateterritory_value>supp_stateterritory_DATA60</supp_stateterritory_value>
+  <supp_stateterritory_text>the supplier's state/territory</supp_stateterritory_text>
+  <purch_country_value>purch_country_DATA61</purch_country_value>
+  <purch_country_text>the purchaser's country</purch_country_text>
+  <new_entity_value>new_entity_DATA62</new_entity_value>
+  <new_entity_text>the new entity</new_entity_text>
+  <purch_age_value>63</purch_age_value>
+  <purch_age_text>the purchaser's age</purch_age_text>
+  <purch_stateterritory_value>purch_stateterritory_DATA64</purch_stateterritory_value>
+  <purch_stateterritory_text>the purchaser's state/territory</purch_stateterritory_text>
+  <purch_suburb_value>purch_suburb_DATA65</purch_suburb_value>
+  <purch_suburb_text>the purchaser's suburb/town</purch_suburb_text>
+  <purch_companyname_value>purch_companyname_DATA66</purch_companyname_value>
+  <purch_companyname_text>the purchaser's company name</purch_companyname_text>
+  <purch_percentageownership_value>67</purch_percentageownership_value>
+  <purch_percentageownership_text>the purchaser's percentage of ownership</purch_percentageownership_text>
+  <purch_address_value>purch_address_DATA68</purch_address_value>
+  <purch_address_text>the purchaser's address</purch_address_text>
+  <purch_TFN_value>69</purch_TFN_value>
+  <purch_TFN_text>the purchaser's TFN</purch_TFN_text>
+  <purch_ABN_value>70</purch_ABN_value>
+  <purch_ABN_text>the purchaser's ABN</purch_ABN_text>
+  <purch_DOB_value>11/12/2018</purch_DOB_value>
+  <purch_DOB_text>the purchaser's date of birth</purch_DOB_text>
+  <purch_phone_value>purch_phone_DATA72</purch_phone_value>
+  <purch_phone_text>the purchaser's phone number</purch_phone_text>
+  <purch_lastname_value>purch_lastname_DATA73</purch_lastname_value>
+  <purch_lastname_text>the purchaser's last name</purch_lastname_text>
+  <purch_firstname_value>purch_firstname_DATA74</purch_firstname_value>
+  <purch_firstname_text>the purchaser's first name</purch_firstname_text>
+  <date_submission_value>11/12/2018</date_submission_value>
+  <date_submission_text>the date of submission</date_submission_text>
+</global-instance>

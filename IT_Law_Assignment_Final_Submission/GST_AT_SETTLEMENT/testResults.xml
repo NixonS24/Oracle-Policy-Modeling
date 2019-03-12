@@ -1,0 +1,67 @@
+<policy-model name="GST_AT_SETTLEMENT" location="E:\IT_Law_Assignment-master-10-October\GST_AT_SETTLEMENT" started="2018-11-10 05:40:20Z" local-started="10/11/2018 4:40:20 PM" ended="2018-11-10 05:40:22Z" local-ended="10/11/2018 4:40:22 PM" total="55" pass="55" fail="0" error="0" document-not-run="0">
+  <testing-document name="Tests\User_Flow_Logic.xlsx" location="E:\IT_Law_Assignment-master-10-October\GST_AT_SETTLEMENT\Tests\User_Flow_Logic.xlsx" total="11" pass="11" fail="0" error="0" started="2018-11-10 05:40:22Z" date-time="2018-11-10 05:35:36Z" time="75">
+    <test-case name="1" result="pass" time="24" />
+    <test-case name="2" result="pass" time="6" />
+    <test-case name="3" result="pass" time="6" />
+    <test-case name="4" result="pass" time="5" />
+    <test-case name="5" result="pass" time="6" />
+    <test-case name="6" result="pass" time="4" />
+    <test-case name="7" result="pass" time="4" />
+    <test-case name="8" result="pass" time="3" />
+    <test-case name="9" result="pass" time="4" />
+    <test-case name="10" result="pass" time="4" />
+    <test-case name="11" result="pass" time="4" />
+  </testing-document>
+  <testing-document name="Tests\Form_Two.xlsx" location="E:\IT_Law_Assignment-master-10-October\GST_AT_SETTLEMENT\Tests\Form_Two.xlsx" total="4" pass="4" fail="0" error="0" started="2018-11-10 05:40:22Z" date-time="2018-11-10 05:36:46Z" time="18">
+    <test-case name="1" result="pass" time="4" />
+    <test-case name="2" result="pass" time="4" />
+    <test-case name="3" result="pass" time="3" />
+    <test-case name="4" result="pass" time="5" />
+  </testing-document>
+  <testing-document name="Tests\Witholding_Amount.xlsx" location="E:\IT_Law_Assignment-master-10-October\GST_AT_SETTLEMENT\Tests\Witholding_Amount.xlsx" total="10" pass="10" fail="0" error="0" started="2018-11-10 05:40:22Z" date-time="2018-11-10 05:40:12Z" time="42">
+    <test-case name="1" result="pass" time="4" />
+    <test-case name="2" result="pass" time="3" />
+    <test-case name="3" result="pass" time="3" />
+    <test-case name="4" result="pass" time="2" />
+    <test-case name="5" result="pass" time="3" />
+    <test-case name="6" result="pass" time="3" />
+    <test-case name="7" result="pass" time="3" />
+    <test-case name="8" result="pass" time="5" />
+    <test-case name="9" result="pass" time="4" />
+    <test-case name="10" result="pass" time="7" />
+  </testing-document>
+  <testing-document name="Tests\Form_One.xlsx" location="E:\IT_Law_Assignment-master-10-October\GST_AT_SETTLEMENT\Tests\Form_One.xlsx" total="15" pass="15" fail="0" error="0" started="2018-11-10 05:40:22Z" date-time="2018-11-09 12:34:50Z" time="102">
+    <test-case name="1" result="pass" time="7" />
+    <test-case name="2" result="pass" time="8" />
+    <test-case name="3" result="pass" time="6" />
+    <test-case name="4" result="pass" time="6" />
+    <test-case name="5" result="pass" time="7" />
+    <test-case name="6" result="pass" time="7" />
+    <test-case name="7" result="pass" time="7" />
+    <test-case name="8" result="pass" time="11" />
+    <test-case name="9" result="pass" time="6" />
+    <test-case name="10" result="pass" time="10" />
+    <test-case name="11" result="pass" time="5" />
+    <test-case name="12" result="pass" time="4" />
+    <test-case name="13" result="pass" time="4" />
+    <test-case name="14" result="pass" time="4" />
+    <test-case name="15" result="pass" time="3" />
+  </testing-document>
+  <testing-document name="Tests\Purchaser.xlsx" location="E:\IT_Law_Assignment-master-10-October\GST_AT_SETTLEMENT\Tests\Purchaser.xlsx" total="15" pass="15" fail="0" error="0" started="2018-11-10 05:40:22Z" date-time="2018-11-10 03:05:16Z" time="59">
+    <test-case name="1" result="pass" time="3" />
+    <test-case name="2" result="pass" time="2" />
+    <test-case name="3" result="pass" time="4" />
+    <test-case name="4" result="pass" time="3" />
+    <test-case name="5" result="pass" time="7" />
+    <test-case name="6" result="pass" time="8" />
+    <test-case name="7" result="pass" time="3" />
+    <test-case name="8" result="pass" time="2" />
+    <test-case name="9" result="pass" time="2" />
+    <test-case name="10" result="pass" time="3" />
+    <test-case name="11" result="pass" time="2" />
+    <test-case name="12" result="pass" time="3" />
+    <test-case name="13" result="pass" time="2" />
+    <test-case name="14" result="pass" time="2" />
+    <test-case name="15" result="pass" time="4" />
+  </testing-document>
+</policy-model>
